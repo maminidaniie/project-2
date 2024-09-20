@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body> 
+   <h2> demonstration </h2>
+   <p id="demo">un texte ici</p>
+   <button type="button"
+         onclick="mafonction()" >texte</button>
+<script>
+  function mafonction(){
+    document.getElementById("demo").innerHTML="deuxieme texte ici"
+  }
+</script>
+<p id="magie">magie magie</p>
+<button type="button" onclick="bliblablou()">clck</button>
+<script>
+  function bliblablou(){
+  document.getElementById("magie").style.fontSize='100px';
+  }
+</script>
+</body>
+</html>
